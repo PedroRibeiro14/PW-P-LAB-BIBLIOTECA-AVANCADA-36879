@@ -1,0 +1,33 @@
+{
+  "name": "pw-p-lab-biblioteca-avancada",
+  "version": "1.0.0",
+  "description": "API Biblioteca Avançada - Programação Web",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node prisma/seed.js"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "node",
+    "prisma",
+    "postgresql"
+  ],
+  "author": "O teu nome",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-pg": "^6.19.3",
+    "@prisma/client": "^6.19.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3"
+  }
+}
